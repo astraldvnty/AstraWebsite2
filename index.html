@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>_____</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <p class="textinmain" id="title">astra</p>
+        <div id="infohover"></div>
+        <p class="minitext">(hover over bold stuff for more info)</p>
+
+        <div class="separator"></div>
+
+        <div id="leftandright">
+            <div id="leftdiv">
+                <p class="subtitle"> ⮕ about me</p>
+                <p class="textinmain">⮞ 17yo, portugal</p>
+                <p class="textinmain" id="games">⮞ games</p>
+                <p class="textinmain" id="music">⮞ music</p>
+                <p class="textinmain">⮞ fav color: purple</p>
+                <p class="textinmain">⮞ fav animal: fox</p>
+            </div>
+            <div id="rightdiv">
+                <p class="subtitle"> ⮕ socials</p>
+                <p class="subtitle2"> ⤷ soundcloud<br></p>
+                <p class="textinmain">⮞ <a href="https://soundcloud.com/astraldvnty" target="_blank" class="link">astra</a><br></p>
+                <p class="textinmain">⮞ <a href="https://soundcloud.com/sageeeee" target="_blank" class="link">sage</a><br></p>
+                <p class="textinmain">⮞ <a href="https://soundcloud.com/dreamfigures" target="_blank" class="link">eleventh</a><br></p>
+                <p class="subtitle3"> ⤷ <a href="https://x.com/astraldvnty" target="_blank" class="link">x</a><br></p>
+                <p class="subtitle3"> ⤷ <a href="https://www.youtube.com/@astr_a_" target="_blank" class="link">youtube</a><br></p>
+                <p class="subtitle3"> ⤷ <a href="https://www.instagram.com/astraldvnty/" target="_blank" class="link">instagram</a><br></p>
+                <p class="textinmain"> ⤷ discord: @astraldvnty<br></p>
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div id="randomfactdiv">
+            <button onclick="genFunFact()" id="factbutton" style="color: #000; border: 2px black solid; font-family: 'Geist Mono', monospace;">generate a random fact</button>
+            <p id="randomfact"></p>
+        </div>
+    </div>
+
+
+
+    <div id="weird">
+        <p class="textinmain" id="titleweird">the witness</p>
+        <div id="infohover"></div>
+        <p class="minitext" id="weirdminitext">(i can hear you)</p>
+
+        <div class="separator2"></div>
+
+        <div id="leftandright">
+            <div id="leftdiv">
+                <p class="subtitle" style="color: rgba(0,0,0,0)"> ⮕ </p>
+                <p class="textinmain">⮞ 𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓</p>
+                <p class="textinmain">⮞ 𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓</p>
+                <p class="textinmain">⮞ 𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓</p>
+                <p class="textinmain">⮞ 𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓</p>
+                <p class="textinmain">⮞ 𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓</p>
+                <p class="textinmain">⮞ 𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓</p>
+            </div>
+            <div id="rightdiv">
+                <p class="subtitle" style="color: rgba(0,0,0,0)"> ⮕ </p>
+                <p class="subtitle2" style="color: rgba(0,0,0,0)">⤷<br></p>
+                <p class="textinmain">⮞ <a href="https://soundcloud.com/astraldvnty" target="_blank" class="link2">the victim 𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓</a><br></p>
+                <p class="textinmain">⮞ <a href="https://soundcloud.com/astraldvnty" target="_blank" class="link2">the victim 𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓</a><br></p>
+                <p class="textinmain">⮞ <a href="https://soundcloud.com/astraldvnty" target="_blank" class="link2">the victim 𓅓𓅓𓅓𓅓</a><br></p>
+                <p class="textinmain">⮞ <a href="https://soundcloud.com/astraldvnty" target="_blank" class="link2">the victim 𓅓𓅓𓅓𓅓𓅓𓅓𓅓</a><br></p>
+                <p class="textinmain">⮞ <a href="https://soundcloud.com/astraldvnty" target="_blank" class="link2">the victim 𓅓𓅓𓅓𓅓𓅓</a><br></p>
+                <p class="textinmain">⮞ <a href="https://soundcloud.com/astraldvnty" target="_blank" class="link2">the victim 𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓𓅓</a><br></p>
+                <p class="subtitle2" style="color: rgba(0,0,0,0)">⤷<br></p>
+            </div>
+        </div>
+
+        <div class="separator2"></div>
+
+        <div>
+            <p id="boothisrantsucks" style="text-align: right;">"scream into the forest as loud as you can. let the owl hear what you've been going through this whole time.<br>tell it all you've been feeling.<br>tell it what you feel every single day."</p>
+            <div style="display: flex; justify-content: flex-end; align-items: center; margin-bottom: 8px;">
+                <p style="text-align: right;">"i feel like...&nbsp;</p>
+                <input style="color: #fff; background-color: rgba(0,0,0,0); border: rgba(0,0,0,0); float: right; font-family: 'Funnel Sans', monospace; font-size: 19px;" id="witnesstext"></input><br>
+                <p style="text-align: right;">"</p>
+            </div>
+            <div style="text-align: right;">
+                <button
+                    style="color: #fff; border: 2px white solid; font-family: 'Geist Mono', monospace;"
+                    id="screambutton"
+                    onclick="Witness()">
+                    scream
+                </button>
+            </div>
+        </div>
+    </div>
+    <audio id="song" loop autoplay>
+        <source src="Rise.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="witnesssong" loop autoplay>
+        <source src="whisPERS.wav" type="audio/mpeg">
+    </audio>
+</body>
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+</html>

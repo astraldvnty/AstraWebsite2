@@ -1,0 +1,154 @@
+/* bg */
+#main {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    color: #000;
+    letter-spacing: -1px;
+    /*wickmel: activated;*/
+}
+
+body {
+    font-family: "Funnel Sans", monospace;
+    background: url("img/bg1.jpg");
+    background-size: cover;
+    font-size: 19px;
+}
+
+.textinmain {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#title, #titleweird {
+    font-size: 40px;
+    text-align: right;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+#info {
+    display: flex;
+}
+
+.subtitle {
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.subtitle2, .subtitle3 {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.subtitle3 {
+    font-weight: bold;
+}
+
+
+#leftdiv, #rightdiv {
+    align-self: right;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.link, .link2 {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.separator {
+    height: 10px;
+    border: rgba(0,0,0,0.8) 8px none;
+    border-top-style: double;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.separator2 {
+    height: 10px;
+    border: rgba(255,255,255,0.8) 8px none;
+    border-top-style: double;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.minitext {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: right;
+    height: 2vh;
+}
+
+#infohover {
+    border: #000 4px none;
+    color: black;
+    height: 5vh;
+    text-align: right;
+    margin-left: 50vw;
+    margin-right: 20px;
+}
+
+#games, #music, .minitext {
+    font-weight: bold;
+}
+
+#games, #music {
+    display: flexbox;
+    text-align: right;
+}
+
+#leftandright {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+button {
+    color: white;
+    background-color: rgba(0,0,0,0);
+    font-family: "Funnel Sans", sans-serif;
+    font-size: 20px;
+    border: 0px;
+    font-weight: bold;
+}
+
+#randomfactdiv {
+    margin-top: 5vh;
+    align-items: right;
+    margin-right: 20px;
+    text-align: right;
+}
+
+#randomfact {
+    font-weight: bold;
+}
+
+/* unvisited link */
+.link:link, .link:visited, .link:hover, .link:active {
+    color: black;
+}
+
+.link2:link, .link2:visited, .link2:hover, .link2:active {
+    color: white;
+}
+
+#weird {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+}
